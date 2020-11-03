@@ -32,4 +32,4 @@ def TRChatBase(chat_id, message_text, intent):
               user_id=chat_id,
               message=message_text,
               intent=intent)
-    resp = msg.send()
+    resp = msg.send(
